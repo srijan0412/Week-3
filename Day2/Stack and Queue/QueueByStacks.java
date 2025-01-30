@@ -32,5 +32,8 @@ public class QueueByStacks {
             System.out.print( stack2.peek() + ", ");
             stack2.pop();
         }
+
+        // Closing the scanner class object 
+        sc.close();
     }
 }
