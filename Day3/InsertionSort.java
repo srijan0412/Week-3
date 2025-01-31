@@ -26,7 +26,7 @@ public class InsertionSort {
         int sortedMarksArray[] = sortArray(employeeIdArray);
 
         // Output 
-        System.out.println("The sorted marks array is: ");
+        System.out.println("The sorted EmployeeID array is: ");
         for (int element : sortedMarksArray) {
             System.out.print(element + ", ");
         }
