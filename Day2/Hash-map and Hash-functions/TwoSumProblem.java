@@ -34,6 +34,6 @@ public class TwoSumProblem {
         Pair result = findPairForGivenSum(array, sum);
 
         // Output 
-        System.out.println(sum + " can be produced by adding " + result.first + " and " + result.second);
+        System.out.println(sum + " can be produced by adding elements at index " + result.first + " and " + result.second);
     }
 }
