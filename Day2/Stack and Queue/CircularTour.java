@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 class PetrolPump {
     int petrol;
     int distance;
