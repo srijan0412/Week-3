@@ -13,6 +13,7 @@ public class ConcantinateString {
             sb.append(string2.charAt(i));
         }
 
+        // Returning the string 
         return sb.toString();
     }
     public static void main(String[] args) {
