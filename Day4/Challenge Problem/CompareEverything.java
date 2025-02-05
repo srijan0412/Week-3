@@ -1,17 +1,3 @@
-// Challenge Problem: Compare StringBuilder, StringBuffer, FileReader, and InputStreamReader
-// Problem:
-// Write a program that:
-// Uses StringBuilder and StringBuffer to concatenate a list of strings 1,000,000 times.
-// Uses FileReader and InputStreamReader to read a large file (e.g., 100MB) and print the number of words in the file.
-// Approach:
-// StringBuilder and StringBuffer:
-// Create a list of strings (e.g., "hello").
-// Concatenate the strings 1,000,000 times using both StringBuilder and StringBuffer.
-// Measure and compare the time taken for each.
-// FileReader and InputStreamReader:
-// Read a large text file (100MB) using FileReader and InputStreamReader.
-// Count the number of words by splitting the text on whitespace characters.
-// Print the word count and compare the time taken for reading the file.
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
